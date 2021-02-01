@@ -69,8 +69,8 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
             }.addOnFailureListener {
-                    Log.d("Main", "LoginFailed : ${it.message}")
-                    Toast.makeText(this, "Email/Password incorrect", Toast.LENGTH_SHORT).show()
+//                    Log.d("Main", "LoginFailed : ${it.message}")
+//                    Toast.makeText(this, "Email/Password incorrect", Toast.LENGTH_SHORT).show()
                     val progressCheck = ProgressDialog(this, R.style.Theme_MaterialComponents_Light_Dialog)
                     progressCheck.hide()
                 }
